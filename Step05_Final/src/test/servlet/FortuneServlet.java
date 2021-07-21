@@ -11,18 +11,19 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/fortune")
+@WebServlet("/test_mvc/fortune")
 public class FortuneServlet extends HttpServlet{
 	@Override
 	protected void service(HttpServletRequest req, 
 			HttpServletResponse resp) throws ServletException, IOException {
+		//오늘의 운세를 얻어오는 비즈니스 로직을 수행한다.
 		String fortuneToday="동쪽으로 가면 귀인을 만나요";
-	 
-		req.setAttribute("fortune",fortuneToday);
-		
-		RequestDispatcher rd=req.getRequestDispatcher("/test/fortune.jsp");
+		//로직 수행 결과 데이터 (Model) 을 request 영역에 담는다.
+		req.setAttribute("fortuneToday",fortuneToday);
+		// view page (jsp) 로 forward 이동해서 응답한다.
+		RequestDispatcher rd=req.getRequestDispatcher("/views/fortune.jsp");
 		rd.forward(req, resp);
-	     }
+	}
 }
 
 
