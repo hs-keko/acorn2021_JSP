@@ -18,25 +18,28 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
 	/*
-		id 가 one 인 요소의
+		id 가 one 인 요소의 
 		1. innerText 를 "김구라"
-		2. 글자의 색을 red
+		2. 글자의 색을 "red"  
 		3. class 속성의 값을 "my-class"
 		로 변경해 보세요.
 	*/
 	
-	/*
+	
 	const a = document.querySelector("#one");
 	a.innerText="김구라";
 	a.style.color="red";
 	a.setAttribute("class", "my-class");
-	*/
 	
-	$("#one").text("김구라");
+	
+	$("#two").text("김구라");
 	$("#two").css("color","red");
 	$("#two").attr("class","my-class");
 	
-	$("#three").text("김구라").css("color","red").attr("class","my-class");
-</script>
+	$("#three")
+	.text("김구라")
+	.css("color","red")
+	.attr("class","my-class");
+	</script>
 </body>
 </html>

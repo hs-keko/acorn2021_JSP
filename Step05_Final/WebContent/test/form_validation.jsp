@@ -8,7 +8,7 @@
 <jsp:include page="../include/resource.jsp"></jsp:include>
 </head>
 <body>
-<div class="containver">
+<div class="container">
 	<form action="">
 		<div>
 			<label class="form-label">아이디</label>
@@ -24,7 +24,6 @@
 				잘못 입력했네!
 			</div>
 		</div>
-			
 		<div>
 			<label class="form-label">아이디</label>
 			<input type="text" class="form-control is-valid" />
@@ -40,7 +39,16 @@
 			</div>
 		</div>
 	</form>
-	
 </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+

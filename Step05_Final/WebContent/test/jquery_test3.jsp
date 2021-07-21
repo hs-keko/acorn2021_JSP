@@ -14,14 +14,13 @@
 <div>div4</div>
 <div>div5</div>
 
-<input id="two" type="text" />
+<input type="text" id="two"/>
 <input type="text" />
 <input type="text" />
 
 <!-- jquery javascript 로딩 -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
-
 </script>
 </body>
 </html>

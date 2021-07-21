@@ -8,6 +8,7 @@
 </head>
 <body>
 <script>
+
 	const util={
 			readPromise:function(){
 				const p = new Promise(function(resolve){
@@ -38,3 +39,12 @@
 </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
