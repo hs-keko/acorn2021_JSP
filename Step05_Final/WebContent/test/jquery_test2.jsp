@@ -40,13 +40,6 @@
 	.text("김구라")
 	.css("color","red")
 	.attr("class","my-class");
-
 	</script>
 </body>
 </html>
-
-
-
-
-
-
