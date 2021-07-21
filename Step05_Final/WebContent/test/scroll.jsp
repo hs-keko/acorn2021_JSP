@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>/test/scroll.jsp</title>
 <style>
 	.spacer{
 		height: 500px;
@@ -25,9 +25,10 @@
 		*/
 		window.addEventListener("scroll", function(){
 			console.log("scroll!");
-			//바닥 까지 스크롤 했는지 여부
+			
+			//바닥 까지 스크롤 했는지 여부 
 			const isBottom = 
-				window.innerHeight + window.scrollY >= document.body.offsetHeight;
+				window.innerHeight + window.scrollY  >= document.body.offsetHeight;
 			if(isBottom){
 				console.log("bottom!");
 			}
@@ -35,3 +36,13 @@
 	</script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
