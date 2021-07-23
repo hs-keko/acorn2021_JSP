@@ -47,5 +47,9 @@
 	<p> empty "" : ${empty "" }</p>
 	<p> not empty null: ${not empty null }</p>
 	<p> not empty "" : ${not empty "" }</p>
+	
+	<h3>3항 연산</h3>
+	<p>${ true ? 'coffee' : 'water' }</p>
+	<p>${ false ? 'coffee' : 'water' }</p>
 </body>
 </html>
